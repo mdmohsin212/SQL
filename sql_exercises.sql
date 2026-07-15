@@ -45,3 +45,6 @@ ORDER BY salary DESC;
 SELECT full_name, salary
 FROM employees
 ORDER BY salary ASC LIMIT 4;
+
+SELECT COUNT(*) FROM employees
+WHERE is_active = 1;
