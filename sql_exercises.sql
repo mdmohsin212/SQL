@@ -37,3 +37,7 @@ WHERE manager_name IS NULL;
 
 SELECT DISTINCT department
 FROM employees;
+
+SELECT full_name, salary
+FROM employees
+ORDER BY salary ASC;
