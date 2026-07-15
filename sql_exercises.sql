@@ -40,4 +40,8 @@ FROM employees;
 
 SELECT full_name, salary
 FROM employees
-ORDER BY salary ASC;
+ORDER BY salary DESC;
+
+SELECT full_name, salary
+FROM employees
+ORDER BY salary ASC LIMIT 4;
