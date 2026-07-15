@@ -48,3 +48,10 @@ ORDER BY salary ASC LIMIT 4;
 
 SELECT COUNT(*) FROM employees
 WHERE is_active = 1;
+
+SELECT AVG(salary)
+FROM employees
+WHERE department = 'AI';
+
+SELECT MAX(experience_years)
+FROM employees;
