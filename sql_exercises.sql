@@ -55,3 +55,23 @@ WHERE department = 'AI';
 
 SELECT MAX(experience_years)
 FROM employees;
+
+SELECT full_name, salary,
+    (salary * 12) As annual_salary
+FROM employees;
+
+
+UPDATE employees
+SET salary = 23000
+WHERE employee_id = 11;
+
+SELECT * 
+FROM employees
+WHERE employee_id = 11;
+
+DELETE FROM employees
+WHERE employee_id = 15;
+
+ SELECT *
+ FROM employees
+ WHERE employee_id = 15;
